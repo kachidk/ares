@@ -1,3 +1,5 @@
-declare interface Window {
-  // extend the window
+declare global {
+  interface Window {
+    // extend the window
+  }
 }
