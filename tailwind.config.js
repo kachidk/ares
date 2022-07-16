@@ -4,15 +4,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: [
-      {
-        light: {
-          ...require("daisyui/src/colors/themes")["[data-theme=light]"], //To extend and modify light theme
-          "--btn-text-case": "normalcase",
-        },
-      },
-    ],
-  },
+  plugins: [],
 };

@@ -14,6 +14,9 @@ function classNames(classes: (string | undefined)[]) {
   return classes.filter(Boolean).join(" ");
 }
 
+/**
+ * Custom component to pass styles to active links
+ */
 export const NextLink = ({
   href,
   children,
