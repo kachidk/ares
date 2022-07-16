@@ -95,5 +95,5 @@ You can use this structure as a template as your project scales.
   complex side effects, i.e. date formatters.
 
 <p align='center'>
-Inspired by <a href="[https://vitesse.netlify.app/](https://vitesse.netlify.app/)">Vitesse<a/>
+Inspired by <a href="https://vitesse.netlify.app/">Vitesse<a/>
 </p>
