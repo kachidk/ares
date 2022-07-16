@@ -55,6 +55,10 @@ npm install
 ## 4. After Install
 
 - [ ] Clean up the READMEs
+- [ ] Change the author name in `LICENSE`
+- [ ] Change the favicon in `public`
+- [ ] Change meta tags in `_app`
+- [ ] Change manifest info in `public`
 
 ## 5. Folder Structure (Recommended)
 
