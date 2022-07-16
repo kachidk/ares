@@ -5,7 +5,7 @@
 ## 1. Features
 
 - [Next.js](https://nextjs.org/)
-- Next 12, React 17
+- Next 12.1, React 17
 - Typescript
 - [Tailwind CSS](https://tailwindcss.com/) A utility-first CSS framework
 - Absolute Imports
@@ -49,7 +49,7 @@ If you prefer to do it manually with the cleaner git history
 ```bash
 npx degit kachidk/ares my-ares-app
 cd my-ares-app
-
+npm install
 ```
 
 ## 4. After Install
