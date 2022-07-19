@@ -7,16 +7,18 @@
 - [Next.js](https://nextjs.org/)
 - Next 12.1, React 17
 - Typescript
-- [Tailwind CSS](https://tailwindcss.com/) A utility-first CSS framework
+- [Tailwind CSS](https://tailwindcss.com/) CSS framework
+- [Ant Design](https://ant.design/) Component library
 - Absolute Imports
 - PWA via [next-pwa](https://github.com/shadowwalker/next-pwa)
-- State management via [zustand](https://github.com/pmndrs/zustand)
+- State management via [Recoil](https://recoiljs.org/)
 
 ## 2. Pre-packed
 
 ### 2.1. UI Frameworks
 
 - [Tailwind CSS](https://tailwindcss.com/) A utility-first CSS framework
+- [Ant Design](https://ant.design/) A design system for enterprise-level products
 
 ### 2.2. Icons
 
