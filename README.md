@@ -5,8 +5,9 @@
 ## 1. Features
 
 - [Next.js](https://nextjs.org/)
-- Next 12.1, React 17
-- Typescript
+- [Next 12.1](https://nextjs.org/blog/next-12-1),
+  [React 17](https://reactjs.org/blog/2020/10/20/react-v17.html)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) CSS framework
 - [Ant Design](https://ant.design/) Component library
 - Absolute Imports
