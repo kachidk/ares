@@ -3,11 +3,15 @@ import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/router";
 
 interface Props extends LinkProps {
-  children: string | JSX.Element;
+  children: string | React.ReactElement | ((p: RenderProps) => React.ReactElement);
   className?: string;
   activeClassName?: string;
   style?: React.CSSProperties;
   activeStyle?: React.CSSProperties;
+}
+
+interface RenderProps {
+  active: boolean;
 }
 
 function classNames(classes: (string | undefined)[]) {
@@ -27,13 +31,18 @@ export const NextLink = ({
   ...rest
 }: Props) => {
   const router = useRouter();
+
+  const renderProps = {
+    active: router.pathname === href,
+  };
+
   return (
     <Link href={href} {...rest}>
       <a
         className={classNames([className, router.pathname === href ? activeClassName : ""])}
         style={router.pathname === href ? { ...style, ...activeStyle } : { ...style }}
       >
-        {children}
+        {children instanceof Function ? children(renderProps) : children}
       </a>
     </Link>
   );

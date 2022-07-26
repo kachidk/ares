@@ -1,9 +1,15 @@
-import "@/styles/tailwind.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { RecoilRoot } from "recoil";
-import "antd/dist/antd.variable.css";
-import "@/styles/variables.css";
+import "antd/dist/antd.variable.min.css";
+import { ConfigProvider } from "antd";
+import "@/styles/tailwind.css";
+
+ConfigProvider.config({
+  theme: {
+    primaryColor: "#25b864",
+  },
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
